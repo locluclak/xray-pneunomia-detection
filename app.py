@@ -133,7 +133,7 @@ def main():
                     st.error(f"Lỗi: {str(e)}. Vui lòng đảm bảo file mô hình và hình ảnh hợp lệ.")
 
     # Footer
-    st.markdown('<div class="footer">© 2025 Hệ Thống Phát Hiện Viêm Phổi., unsafe_allow_html=True)
+    st.markdown('<div class="footer">© 2025 Hệ Thống Phát Hiện Viêm Phổi.</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
