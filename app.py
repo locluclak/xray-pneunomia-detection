@@ -108,7 +108,7 @@ def main():
             with st.spinner("Đang phân tích hình ảnh..."):
                 try:
                     # Load the pre-trained scikit-learn model
-                    with open("svm_pca_pipeline.pkl", "rb") as file:
+                    with open("pca_lr_pipeline.pkl", "rb") as file:
                         model = pickle.load(file)
 
                     # Preprocess the image
